@@ -1,2 +1,37 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+@ -0,0 +1,34 @@
+# PHP (Hypertext Preprocessor)
+Uma linguagem server-side, roda do lado do servidor. é uma linguagem de programção back-end, pois ela realiza comunicação com o banco de dados.
+Ela é processada no servidor e o resultado do processamento é enviado ao cliente. ( quem fez a requisição). Exemplo:
+
+Arquivo PHP: 2+2
+
+Resposta para o cliente: 4
+
+Todo arquivo PHP tera a extensão .php
+
+## Aula 01
+ - Introdução ao PHP
+ - Infraestrutura necessária
+ - Onde colocar nossos arquivos
+ - Variáveis
+ - Tipos de dados
+ - Operadores aritméticos
+ - Envio/Recebimento de informações entre arquivos
+
+### Introdução ao PHP
+- Documentação oficial http://php.net/
+- Ele brilha na WEB, 79% da WEB usa PHP (https://kinsta.com/php-market-share/)
+- PHP pode ser utilizado para projetos de IOT (Internet das coisas), funciona para criar aplicações de linha de comando(modo texto), pode tambem criar aplicativos desktop com PHP
+- PHP é um linguagem Interpretada
+
+### Infraestrutura necessária
+- Servidor é um computador que fornece serviços a clientes. Exemplo: Serviços de DHCP: O servidor fica responsavel por distribuir números IP (Internet Protocol) para os clientes (hosts) na rede.
+- Nossos sites ficam em servidores Web, um servidor Web é responsável por exibir um site quando for solicitado (requisição). Iremos utilizar o servidor web APACHE ( existem outros como IIS, NGINX) juntamente com um banco de dados chamado MariaDB(mesma coisa do MySQL).
+- Vamos instalar o XAMPP, esse programa já instala o APACHE, o PHP e o MariaDB. Baixe o XAMPP em
+
+### Onde colocar nossos arquivos
+- Os arquivos PHP precisam ser executados a partir do servido, como se voce estivece acessando pela internet.
+- Para o XAMPP, o local aonde devemos colocar os arquivos é em `c:\xampp\htdocs`. Exemplo: `c:\xampp\htdocs\site\index.php`
+- Para executar os arquivos PHP precisamos requisitalos a partir do navegador digitando `http://localhost/`. Exemplo: `http://localhost/site/index.php`
